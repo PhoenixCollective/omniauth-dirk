@@ -1,2 +1,2 @@
-require "omniauth-twitter/version"
+require 'omniauth-dirk/version'
 require 'omniauth/strategies/dirk'
