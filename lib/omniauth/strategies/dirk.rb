@@ -6,7 +6,7 @@ module OmniAuth
       option :name, :dirk
 
       option :client_options,
-             site: 'https://marleen.cda.nl',
+             site: 'https://dirk.cda.nl',
              authorize_url: '/oauth/authorize'
 
       uid { raw_info['id'] }
