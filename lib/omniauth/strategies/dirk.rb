@@ -15,7 +15,8 @@ module OmniAuth
         {
           email_address: raw_info['email_address'],
           name: raw_info['name'],
-          navision_id: raw_info['navision_id']
+          navision_id: raw_info['navision_id'],
+          department: raw_info['department']
         }
       end
 
