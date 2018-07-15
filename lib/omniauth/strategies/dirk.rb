@@ -18,6 +18,7 @@ module OmniAuth
           first_name: raw_info['first_name'],
           last_name: raw_info['last_name'],
           navision_id: raw_info['navision_id'],
+          phone_number: raw_info['phone_number'],
           department: raw_info['department'],
           roles: raw_info['roles']
         }
